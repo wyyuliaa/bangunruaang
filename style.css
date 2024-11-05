@@ -1,0 +1,56 @@
+/* Add styles here */
+*{font-family: Arial, Helvetica, sans-serif;}
+.tengah{display: flex; justify-content: center;}
+.card{
+    width: 48%;
+    box-shadow: 0 4px 8px 0 rgba red(0,0,0, 0.2);
+    transition: 0.3s;
+}
+.card h1{
+    font-size: 16px;
+padding: 0px 5px;
+}
+
+.cardbody{
+    padding: 2px 16px;
+}
+
+.cardfooter{
+    padding: 8px;
+    background-color: darkred;
+    display: flex;
+    justify-content: right;
+}
+
+.card :hover{
+    box-shadow: 0 8px 0;
+}
+
+label{
+    font-size: 14px;
+    font-weight: bold;
+}
+input[type-text]{
+    width: 99%;
+    padding: 10px 20px;
+    margin: 8px 10px;
+}
+
+.btn1{
+    border: none;
+    border-radius: 8px;
+    background-color: aquamarine;
+    color: bisque;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px20px;
+}
+.hsl{
+    font-size: 14px;
+    margin: 10px;
+    height: 200px;
+    width: 90%;
+    border: solid #C0C0C0 1px;
+    padding: 10px;
+    background-color: ;
+}
